@@ -1,7 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
-} 
+}
 /* Basic Typography */
 html, body {
 	font-size: 1em;
@@ -15,7 +15,7 @@ html {
 }
 body {
 	padding: 2em 2.5em 1em 20em;
-}                  
+}
 /* Blocks */
 header {
 	border-right: 1px #eee solid;
@@ -59,13 +59,13 @@ h2 {
 	font-size:1.9em;
 	line-height: 1.2em;
 	margin-top: 0.7em;
-	margin-bottom: 0.7em;	
+	margin-bottom: 0.7em;
 }
 h3 {
 	font-size:1.4em;
 	line-height: 1.3em;
 	margin-top: 0.8em;
-	margin-bottom: 0.8em;	
+	margin-bottom: 0.8em;
 }
 h4 {
 	font-size:1.3em;
@@ -105,7 +105,7 @@ hr{
 	background: #eee;
 }
 ul, ol {
-	margin-left: 3em; 
+	margin-left: 3em;
 }
 code {
 	font-size:1.4em;
@@ -121,7 +121,7 @@ pre {
 	white-space: pre;
 	white-space: -moz-pre-wrap;
 	white-space: pre-wrap;
-	white-space: pre\9; 
+	white-space: pre\9;
 }
 input {
 	font-size:1em;
@@ -135,7 +135,7 @@ header h1 {
 }
 header h1 a {
 	color:#444;
-}  
+}
 header h1 a:hover {
 	text-decoration:none;
 }
@@ -152,7 +152,7 @@ header h6 {
 }
 /* Posts */
 article span.post-stamp {
-	color:#888;     
+	color:#888;
 }
 h1.post-title {
 	margin-top:0.35em;
@@ -164,6 +164,9 @@ h3.post-title {
 	border-bottom: 1px solid #eee;
 	font-size: 1.2em;
 	color: #444;
+}
+h3.post-title .draft {
+	color: #bbb;
 }
 .separator {
 	color: #ccc;
@@ -181,7 +184,7 @@ footer a {
 	font-weight:300;
 	color:#888;
 	text-decoration: underline;
-} 
+}
 footer a:hover {
 	color:#444;
 	text-decoration: none;
@@ -190,10 +193,10 @@ footer a:hover {
 @media only screen and (min-width: 1281px) {
 	html, body {
 		font-size: 1.1em;
-	} 
+	}
 }
 /* Small Screens */
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 800px) {
 	body {
 		padding:0;
 	}
@@ -216,7 +219,7 @@ footer a:hover {
 	}
 }
 /* Tiny Screens */
-@media only screen and (max-width: 320px) { 
+@media only screen and (max-width: 320px) {
 	header {
 		padding: 1.2em 1.2em 0.6em 1.2em;
 	}

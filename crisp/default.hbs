@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">	
+<html lang="en">
 	<head>
 	    {{! Document Settings }}
 	    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
@@ -20,7 +20,7 @@
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]--> 
+		<![endif]-->
 	    {{ghost_head}}
 	</head>
 	<body class="{{body_class}}">
@@ -28,13 +28,14 @@
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
 			<p>{{@blog.description}}</p>
-			<h6><a href="{{@blog.url}}/about">About</a></h6>
+			<h6><a href="https://twitter.com/InsideYourWeb_" target="_blank">@InsideYourWeb_</a></h6>
+			<!--h6><a href="{{@blog.url}}/about">About</a></h6-->
 		</header>
 		<main id="content">
 			{{{body}}}
 		</main>
 		<footer id="footer">
-			<section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}. All rights reserved. Powered by <a href="http://ghost.org" target="_blank">Ghost</a>. <a href="http://github.com/kathyqian/crisp" target="_blank">Crisp</a> theme by <a href="http://kathyqian.com" target="_blank">Kathy Qian</a>.</section>
+			<section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}. All rights reserved. Powered by <a href="http://ghost.org" target="_blank">Ghost</a>.</section>
 		</footer>
 	{{ghost_foot}}
 	</body>
